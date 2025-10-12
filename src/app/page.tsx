@@ -30,7 +30,7 @@ export default function Home() {
           </div>
           <div className='text-center md:text-left'>
             <h1 className='text-4xl font-bold mb-5 hover:text-highlight transition-colors cursor-pointer'>About Me</h1>
-            <p>Hi! I am Duong Thang, a junior software developer. I'm specializing in web development, but I am also interested in trading/cryptocurrency.</p>
+            <p>Hi! I am Duong Thang, a junior software developer. I&apos;m specializing in web development, but I am also interested in trading/cryptocurrency.</p>
           </div>
         </div>
       </section>
@@ -74,13 +74,13 @@ export default function Home() {
       <section id='about_me' className="py-20 text-center">
         <h1 className='text-4xl font-bold mb-10 hover:text-highlight transition-colors cursor-pointer'>More About Me</h1>
         <div className='max-w-4xl mx-auto px-5 text-lg'>
-          <p className="mb-2">Thanks for scrolling down! Here's some personality facts about me to determine culture fit.</p>
+          <p className="mb-2">Thanks for scrolling down! Here&apos;s some personality facts about me to determine culture fit.</p>
           <ul className="list-disc list-inside text-left mt-4 space-y-2">
             <li>
               People say I am too honest for my own good.
             </li>
             <li>
-              I have a hard time starting a task, but 15 minutes into it I'm good for hours.
+              I have a hard time starting a task, but 15 minutes into it I&apos;m good for hours.
             </li>
             <li>
               I prefer to dress casually whenever possible.
