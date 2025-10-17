@@ -1,10 +1,33 @@
 @import "tailwindcss";
 
+@layer components {
+  .thanks-message {
+    @apply transition-colors duration-[3000ms] ease-in-out;
+    color: transparent;
+  }
+  .thanks-message:hover {
+    @apply text-dark;
+  }
+}
+
 @theme {
-  --color-background: oklch(6.22% 0 0);
+  /* Base colors */
+  --color-background: oklch(6.22% 0 0);  /* Kept for canvas background */
+  --color-background-light: oklch(11.24% 0 0);
+  
+  /* New theme colors */
+  --color-dark: oklch(20% 0 0);  /* Dark gray instead of black */
+  --color-darker: oklch(15% 0 0);  /* Slightly lighter than before */
+  --color-light: oklch(95% 0.1 170);
+  --color-lighter: oklch(97% 0.08 170);
+  
+  /* Accent colors */
   --color-primary: oklch(68.91% 0.15 183.2);
   --color-secondary: oklch(88.71% 0 0);
   --color-highlight: oklch(91.32% 0.14 181.8);
   --color-error: oklch(64.91% 0.2 24.9);
-  --color-background-light: oklch(11.24% 0 0);
+  
+  /* Text colors */
+  --color-text-dark: oklch(20% 0 0);
+  --color-text-light: oklch(98% 0 0);
 }
