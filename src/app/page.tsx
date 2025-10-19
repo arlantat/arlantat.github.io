@@ -110,7 +110,7 @@ export default function Home() {
             </div>
 
             <div className='w-full max-w-2xl mx-auto text-center lg:text-left'>
-              <h1 className='text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-dark group'>
+              <h1 className='text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-dark group hover:text-primary transition-colors'>
                 <span className="relative inline-block">
                   <span className="relative z-10">About Me</span>
                 </span>
@@ -156,7 +156,7 @@ export default function Home() {
           <div className="max-w-4xl mx-auto text-center mb-12">
             <h2 
               id="featured-project-heading"
-              className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 group inline-block"
+              className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 group inline-block hover:text-highlight transition-colors"
             >
               <span className="relative">
                 <span className="relative z-10">Featured Project</span>
