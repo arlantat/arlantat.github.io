@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState, useCallback } from 'react';
-import { ReactFlow, Controls, Background, Node, Edge, NodeChange, applyNodeChanges } from '@xyflow/react';
+import { ReactFlow, Background, Node, Edge, NodeChange, applyNodeChanges } from '@xyflow/react';
 import '@xyflow/react/dist/style.css';
 
 import CustomNode, { CustomNodeData } from './CustomNode';
@@ -161,6 +161,7 @@ export default function NodeSystem() {
         onNodesChange={onNodesChange}
         nodesDraggable={true}
         fitView
+        proOptions={ { hideAttribution: true } }
       >
         <Background />
       </ReactFlow>
